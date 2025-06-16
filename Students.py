@@ -82,7 +82,7 @@ def menu():
         print(" 2.kurs elave et.")
         print(" 3.Register")
         print("4.kurslardaki telebeler")
-        print("Cixis")
+        print("5.Cixis")
 
         secim=int(input("Seciminizini daxil edin"))
 
@@ -101,11 +101,11 @@ def menu():
 
             register_student(student_id, course_id)
         
-        elif secim==5:
+        elif secim==4:
             course_id=int(input("ID ni daxil et"))
             get_course_students(course_id)
         
-        elif secim==6:
+        elif secim==5:
             break
         else:
             print("Bele bir secim yoxdur")
